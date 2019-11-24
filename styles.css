@@ -26,6 +26,12 @@ body {
   color: #fff;
 }
 
-.button:hover {
+.button:hover,
+.button:visited:hover {
   background-color: #add6c8;
+}
+
+.button:active,
+.button:visited:active {
+  background-color: #8bc5b2;
 }
